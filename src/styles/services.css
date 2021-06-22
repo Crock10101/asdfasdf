@@ -1,0 +1,109 @@
+.tomax {
+  white-space: nowrap;
+  background-color: red;
+  padding: 15px;
+}
+
+.solution {
+  white-space: pre-wrap;
+  width: 30%;
+
+  padding: 15px;
+}
+
+.cardstyle {
+  min-height: 350px;
+  max-height: 500px;
+  text-align: left;
+  width: 100%;
+}
+
+.cardstyle h3{
+ font-size: 2rem;
+ text-align: left;
+}
+
+.cardstyle ul{
+  font-size: 0.875rem;
+  text-align: left;
+  white-space: pre-wrap;
+ }
+
+ .cardstyle li{
+  
+  white-space: pre-wrap;
+ }
+
+.services {
+  
+}
+
+.iconImg {
+  max-width: 50%;
+}
+
+.cardstyle2 {
+    height: 100%;
+    padding: 10px;
+    
+    
+  }
+
+
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+.serv {
+  justify-content: left;
+  text-align: left;
+  line-height: 30px;
+  list-style-position: outside;
+}
+
+.serv p {
+  font-size: 16;
+  color: black;
+  font-weight: normal;
+  text-align: left;
+}
+
+.serv ul,
+li {
+  font-size: 16;
+  font-weight: normal;
+  justify-content: center;
+  text-align: left;
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,398 @@
+.ZeroBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 75vh;
+}
+
+.videoPlay {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh);
+  object-fit: cover;
+  object-position: center;
+  z-index: -5;
+  filter: brightness(45%);
+}
+
+.videoText {
+  z-index: 3;
+  font-size: 2.5rem;
+  max-height: 100%;
+  padding: 0rem calc((100vw - 1300px) / 2);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0 0.5);
+  margin: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+.fashion {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: realtive;
+}
+
+.overlay h1 {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.3);
+  word-spacing: 1rem;
+  line-height: 100px;
+  text-align: center;
+  justify-content: left;
+  margin: 0;
+  z-index: 9;
+  
+}
+
+
+
+.CC {
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 3.125rem;
+  font-size: 1.125rem;
+  
+}
+
+.cred {
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: auto;
+  text-align: center;
+  line-height: 150%;
+  
+}
+
+.cred p{
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: auto;
+  text-align: center;
+  line-height: 150%;
+  font-size: 1rem;
+}
+
+
+
+.pbutt {
+  justify-content: center;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: auto;
+  text-align: center;
+  line-height: 150%;
+  padding: 30px;
+}
+
+.pbutt3 {
+  justify-content: center;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: auto;
+  text-align: center;
+  line-height: 150%;
+  padding: 3px;
+}
+
+
+.left {
+  text-align: left;
+  justify-items: left;
+  padding-bottom: 0.9375rem;
+}
+
+p {
+  color: #314e7c;
+  font-weight: 800;
+}
+
+.blue {
+  color: #314e7c;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.blue2 {
+  color: #314e7c;
+  font-weight: 900;
+  
+}
+
+.darkblue {
+  color: #113a7a;
+}
+
+.lblue {
+  color: #6fccdd;
+}
+.phil {
+  
+  width: 100%;
+
+}
+
+.phil h1 {
+  font-size: 6vw;
+  text-align: center;
+  margin: 0;
+  color: whitesmoke;
+  
+}
+
+.phil p {
+  font-size: 1.5vw;
+  text-align: right;
+  margin-top: -4vh;
+}
+
+.phil h3 {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  justify-items: center;
+
+}
+
+.smallh2 h2 {
+  font-size: 30px;
+}
+.small h2:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 inherit; 
+  width: 20% !important; 
+  padding-top: 10px;
+  border-bottom: 2px solid #314e7c; 
+  
+}
+
+.small h3:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 inherit; 
+  width: 20% !important; 
+  padding-top: 10px;
+  border-bottom: 2px solid #314e7c; 
+}
+.wrapper {
+  height: 80vh;
+  justify-content: left;
+  position: relative;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: width 0.5s linear;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+.title {
+  top: 20%;
+}
+.card:hover {
+  width: 100%;
+}
+
+.card h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.card:hover h3 {
+  display: none;
+}
+.card:hover .text-wrapper {
+  height: 500px;
+  
+  
+}
+.img {
+  width: 100%;
+  height: 100%;
+  background: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.text-wrapper {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transition: height 0.3s linear;
+  background: whitesmoke;
+  color: #314e7c;
+  font-weight: bold;
+  
+  box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+
+.text-wrapper .text {
+  padding: 20px;
+  letter-spacing: 2px;
+  color: #6fccdd;
+  font-size: 30px;
+}
+
+.text-wrapper  .text-small {
+  padding: 20px;
+  letter-spacing: 2px;
+  color: #314e7c;
+  font-size: 16px;
+}
+@media screen and (max-width: 960px) {
+  .phil h1 {
+    font-size: 8vw;
+    text-align: center;
+    
+    color: gray;
+    
+  }
+  
+  .phil p {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .phil h3 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+
+
+}
+@media screen and (max-width: 720px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 700px;
+    width: 98%;
+ }
+  .card {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: cover;
+    transition: none;
+ }
+  .card:hover {
+    width: 100%;
+ }
+  .card:hover .text-wrapper {
+    height: 100%;
+ }
+  .img {
+    width: 100%;
+    height: 100%;
+   
+ }
+  .text-wrapper {
+    height: 0%;
+ }
+
+ .card:hover .text-wrapper {
+  height: 100%;
+  
+  
+}
+}
+
+@media screen and (max-width: 600px) {
+  .card:hover .text-wrapper {
+    height: 70%;
+    
+    
+  }
+
+  .cardstyle2 h3{
+    font-size: 2rem;
+    
+    
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .expand-column-wrapper {
+ display: none;
+ transition: width .5s;
+  }
+
+  .text-wrapper {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: height 0.3s linear;
+    background: whitesmoke;
+    
+    font-weight: bold;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+    
+  }
+  
+  .text-wrapper .text {
+    padding: 20px;
+    letter-spacing: 2px;
+    color: #6fccdd;
+    
+    font-size: 30px;
+  }
+  
+  .text-wrapper  .text-small {
+    padding: 20px;
+    letter-spacing: 2px;
+    color: #314e7c;
+    
+    font-size: 16px;
+  }
+}
+
+
+h4 {
+  display: inline;
+  vertical-align: top;
+  color: WHite;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+
+
